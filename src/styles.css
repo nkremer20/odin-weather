@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+button {
+    cursor: pointer;
+}
