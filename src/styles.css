@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html, body {
     margin: 0;
     padding-top: 0;
+    background-image: url('./assets/sky-background.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: 'Roboto';
+    --background-color: rgba(255, 255, 255, 0.3);
+    --background-blur: blur(5px);
+    --card-shadow: 0px 0px 8px 0px #000000;
+    height: 100dvh;
 }
 
 h1, h2, h3, h4, h5, h6, p, button {
@@ -24,4 +37,41 @@ textarea {
 
 button {
     cursor: pointer;
+    background-color: var(--background-color);
+    backdrop-filter: var(--background-blur);
+    box-shadow: var(--card-shadow);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#city-search {
+    border: 1px solid black;
+    background-color: var(--background-color);
+    backdrop-filter: var(--background-blur);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: var(--card-shadow);
+}
+
+.weather-card {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: var(--background-color);
+    backdrop-filter: var(--background-blur);
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
 }

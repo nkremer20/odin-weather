@@ -1,5 +1,5 @@
 {
-  "name": "odin-dropdown",
+  "name": "odin-weather",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nkremer20/odin-dropdown.git"
+    "url": "git+https://github.com/nkremer20/odin-weather.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nkremer20/odin-dropdown/issues"
+    "url": "https://github.com/nkremer20/odin-weather/issues"
   },
-  "homepage": "https://github.com/nkremer20/odin-dropdown#readme",
+  "homepage": "https://github.com/nkremer20/odin-weather#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
