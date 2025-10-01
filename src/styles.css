@@ -68,10 +68,63 @@ button {
 }
 
 .weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
     padding: 20px;
     background-color: var(--background-color);
     backdrop-filter: var(--background-blur);
     border-radius: 10px;
     box-shadow: var(--card-shadow);
+}
+
+.temp-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px 0 5px 0;
+}
+
+#current-temp {
+    font-size: 50px;
+}
+
+.forcast-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.forcast-card {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.forcast-card > img {
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.forcast-temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.high-low {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 10px;
+    margin-bottom: 20px;
 }
